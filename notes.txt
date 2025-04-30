@@ -1,0 +1,4 @@
+
+
+qwen/qwen3-30b-a3b:free
+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
