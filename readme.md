@@ -5,6 +5,8 @@
 <!-- TODO: Afegir una captura de pantalla o un GIF animat aquí per mostrar l'aplicació en acció -->
 <!-- ![Captura de pantalla de plungeFix](URL_DE_LA_IMATGE_AQUI) -->
 
+!["desatascador"](https://github.com/Xesco-Tejedor/plungeFix/blob/main/media/plungefix-screenshot.jpg)
+
 **plungeFix** és una senzilla però potent aplicació web dissenyada per ajudar-te a superar bloquejos mentals i abordar problemes complexos des de noves perspectives. Utilitzant la potència de la Intel·ligència Artificial (IA), plungeFix genera analogies creatives que poden il·luminar el teu camí cap a la solució.
 
 Estàs encallat en un problema difícil? Sents que no avances? De vegades, una bona analogia és tot el que necessites per veure les coses d'una altra manera. plungeFix et connecta amb aquesta espurna creativa.
