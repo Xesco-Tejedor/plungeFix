@@ -1,0 +1,229 @@
+/* --- Estilos anteriores --- */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto; /* Centrar el contenedor */
+}
+
+h1, h2 {
+    color: #0056b3; /* Un azul distintivo */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 95%; /* Ligeramente menos del 100% para padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-height: 80px; /* Altura mínima */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff; /* Azul primario */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover:not(:disabled) { /* No cambiar color si está desactivado */
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+#outputArea {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef; /* Fondo ligeramente diferente */
+    border: 1px solid #ced4da; /* Borde sólido suave */
+    border-radius: 5px;
+    min-height: 100px;
+    white-space: pre-wrap; /* Conservar saltos de línea de la IA */
+}
+
+#outputArea p:first-child {
+    margin-top: 0; /* Evitar doble margen */
+}
+
+#outputArea em { /* Estilo para el texto inicial */
+ color: #6c757d;
+ font-style: italic;
+}
+
+
+/* --- Indicador de Carga (Spinner simple) --- */
+#loadingIndicator {
+    color: #6c757d;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #007bff;
+  margin: 10px auto; /* Centrar el spinner */
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
+/* --- Estilos anteriores (sin cambios) --- */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto; /* Centrar el contenedor */
+}
+
+h1, h2 {
+    color: #0056b3; /* Un azul distintivo */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea,
+input[type="password"] { /* Aplicar estilos a ambos */
+    width: 95%; /* Ligeramente menos del 100% para padding */
+    padding: 10px;
+    margin-bottom: 5px; /* Reducir margen inferior para la nota */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: block; /* Asegurar que ocupe toda la línea */
+}
+
+textarea {
+    min-height: 80px; /* Altura mínima */
+    margin-bottom: 15px; /* Margen normal para el textarea */
+}
+
+small { /* Estilo para la nota de la API Key */
+    display: block;
+    margin-bottom: 15px;
+    font-size: 0.85em;
+    color: #6c757d;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff; /* Azul primario */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Añadir espacio antes del botón */
+    margin-bottom: 20px;
+}
+
+button:hover:not(:disabled) { /* No cambiar color si está desactivado */
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+#outputArea {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef; /* Fondo ligeramente diferente */
+    border: 1px solid #ced4da; /* Borde sólido suave */
+    border-radius: 5px;
+    min-height: 100px;
+    white-space: pre-wrap; /* Conservar saltos de línea de la IA */
+}
+
+#outputArea p:first-child {
+    margin-top: 0; /* Evitar doble margen */
+}
+
+#outputArea em { /* Estilo para el texto inicial */
+ color: #6c757d;
+ font-style: italic;
+}
+
+
+/* --- Indicador de Carga (Spinner simple - sin cambios) --- */
+#loadingIndicator {
+    color: #6c757d;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #007bff;
+  margin: 10px auto; /* Centrar el spinner */
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

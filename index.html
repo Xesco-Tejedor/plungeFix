@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Analogías IA (Usa tu API Key)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Desbloquea tu Mente con IA</h1>
+
+    <div class="container">
+        <label for="problemInput">1. Describe tu problema complejo:</label>
+        <textarea id="problemInput" rows="5" placeholder="Ej: Estoy luchando por priorizar tareas en un proyecto con plazos ajustados y recursos limitados..."></textarea>
+
+        <label for="apiKeyInput">2. Introduce tu API Key (ej: OpenAI):</label>
+        <input type="password" id="apiKeyInput" placeholder="Tu clave API secreta (se usa directamente desde tu navegador)">
+        <small>Nota: Tu API Key se envía directamente a la API de IA desde tu navegador. No se almacena en ningún servidor.</small>
+
+        <button id="generateButton">3. Generar Perspectivas con IA</button>
+
+        <div id="loadingIndicator" style="display: none; text-align: center; margin-top: 15px;">
+            <p><em>Generando perspectivas... esto puede tardar unos segundos...</em></p>
+            <div class="spinner"></div>
+        </div>
+
+        <h2>Perspectivas Sugeridas por IA:</h2>
+        <div id="outputArea">
+            <p><em>Introduce tu problema y tu API Key, luego haz clic en el botón.</em></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
